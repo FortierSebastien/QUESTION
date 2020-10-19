@@ -19,7 +19,7 @@ class MealsController extends AppController {
             return false;
         }
 
-        // Check that the article belongs to the current user.
+        // Check that the meal belongs to the current user.
         $meal = $this->Meals->findBySlug($slug)->first();
 
         return $meal->user_id === $user['id'];

@@ -5,75 +5,75 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2020-10-14 07:28+0000\n"
-"PO-Revision-Date: 2020-10-14 03:57-0400\n"
+"PO-Revision-Date: 2020-10-18 16:42-0700\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.4.1\n"
 "Last-Translator: \n"
-"Language: fr_CA\n"
+"Language: ja_JP\n"
 
 #: Controller/ClientsController.php:56
 msgid "Client must be added from an meal"
-msgstr "Le client doit être ajouté d'un client"
+msgstr "お食事からクライアントを追加する必要があります"
 
 #: Controller/ClientsController.php:66 Controller/ClientsController.php:92
 msgid "The client has been saved."
-msgstr "Le client à été sauvegardé"
+msgstr "クライアントは保存されました。"
 
 #: Controller/ClientsController.php:70
 msgid "The comment could not be saved. Please, try again."
-msgstr "Le client n'a pas pu être sauvé"
+msgstr "コメントを保存できませんでした。もう一度お試しください。"
 
 #: Controller/ClientsController.php:96
 msgid "The client could not be saved. Please, try again."
-msgstr "Le client n'a pas pu être sauver, essayez de nouveau"
+msgstr "コメントを保存できませんでした。もう一度お試しください。"
 
 #: Controller/ClientsController.php:113
 msgid "The client has been deleted."
-msgstr "Le client à été supprimé"
+msgstr "クライアントは削除されました。"
 
 #: Controller/ClientsController.php:115
 msgid "The client could not be deleted. Please, try again."
-msgstr "Le client ne peut être supprimé, SVP, essayez de nouveau"
+msgstr "クライアントを削除できませんでした。もう一度お試しください。"
 
 #: Controller/MealsController.php:54
 msgid "Your meal has been saved."
-msgstr "ton repas à été sauvé"
+msgstr "あなたの食事は保存されました。"
 
 #: Controller/MealsController.php:57
 msgid "Unable to add your meal."
-msgstr "Impossible d'ajouter ton repas"
+msgstr "食事を追加できません。"
 
 #: Controller/MealsController.php:71
 msgid "Your meal has been updated."
-msgstr "Ton repas à été mis à jour"
+msgstr "お食事が更新されました。"
 
 #: Controller/MealsController.php:74
 msgid "Unable to update your meal."
-msgstr "Impossible de mettre le repas à jour"
+msgstr "食事を更新できません。"
 
 #: Controller/MealsController.php:85
 msgid "The {0} meal has been deleted."
-msgstr "le {0} repas à été supprimé"
+msgstr "{0}食事は削除されました。"
 
 #: Controller/UsersController.php:77 Controller/UsersController.php:101
 msgid "The user has been saved."
-msgstr "L'utilisateur à été sauvé"
+msgstr "ユーザーが保存されました。"
 
 #: Controller/UsersController.php:81 Controller/UsersController.php:105
 msgid "The user could not be saved. Please, try again."
-msgstr "L'utilisateur n'a pu être sauvé"
+msgstr "ユーザーを保存できませんでした。もう一度お試しください。"
 
 #: Controller/UsersController.php:122
 msgid "The user has been deleted."
-msgstr "L'utilisateur à été supprimé"
+msgstr "ユーザーは削除されました。"
 
 #: Controller/UsersController.php:124
 msgid "The user could not be deleted. Please, try again."
-msgstr "L'utilisateur n'a pu être supprimé, Veuillez réessayer"
+msgstr "ユーザーを削除できませんでした。もう一度お試しください。"
 
 #: Template/Clients/add.ctp:9 Template/Clients/edit.ctp:9
 #: Template/Clients/index.ctp:9 Template/Clients/index.ctp:23
@@ -83,43 +83,43 @@ msgstr "L'utilisateur n'a pu être supprimé, Veuillez réessayer"
 #: Template/Users/index.ctp:28 Template/Users/view.ctp:9
 #: Template/Users/view.ctp:64
 msgid "Actions"
-msgstr "événements"
+msgstr "アクション"
 
 #: Template/Clients/add.ctp:10 Template/Clients/edit.ctp:16
 #: Template/Clients/view.ctp:12
 msgid "List Clients"
-msgstr "Liste Client"
+msgstr "クライアントの一覧表示"
 
 #: Template/Clients/add.ctp:11 Template/Clients/edit.ctp:17
 #: Template/Clients/index.ctp:11 Template/Clients/view.ctp:14
 #: Template/Users/add.ctp:14 Template/Users/edit.ctp:19
 #: Template/Users/index.ctp:13 Template/Users/view.ctp:16
 msgid "List Meals"
-msgstr "Liste Repas"
+msgstr "食事のリスト"
 
 #: Template/Clients/add.ctp:12 Template/Clients/edit.ctp:18
 #: Template/Clients/index.ctp:12 Template/Clients/view.ctp:15
 #: Template/Users/add.ctp:15 Template/Users/edit.ctp:20
 #: Template/Users/index.ctp:14 Template/Users/view.ctp:17
 msgid "New Meal"
-msgstr "Nouveau repas"
+msgstr "新しい食事"
 
 #: Template/Clients/add.ctp:18
 msgid "Add Client"
-msgstr "Ajouter un repas"
+msgstr "クライアントの追加"
 
 #: Template/Clients/add.ctp:25 Template/Clients/edit.ctp:31
 #: Template/Users/add.ctp:34 Template/Users/edit.ctp:33
 #: View/Helper/FormHelper.php:2036
 msgid "Submit"
-msgstr "Soumettre"
+msgstr "送信"
 
 #: Template/Clients/edit.ctp:11 Template/Clients/index.ctp:35
 #: Template/Clients/view.ctp:80 Template/Meals/view.ctp:45
 #: Template/Users/edit.ctp:11 Template/Users/index.ctp:43
 #: Template/Users/view.ctp:82
 msgid "Delete"
-msgstr "Supprimer"
+msgstr "削除"
 
 #: Template/Clients/edit.ctp:13 Template/Clients/index.ctp:35
 #: Template/Clients/view.ctp:11 Template/Clients/view.ctp:80
@@ -127,59 +127,59 @@ msgstr "Supprimer"
 #: Template/Users/index.ctp:43 Template/Users/view.ctp:11
 #: Template/Users/view.ctp:82
 msgid "Are you sure you want to delete # {0}?"
-msgstr "êtes-vous sûr de vouloir supprimer #{0}? "
+msgstr "# {0}を削除しますか?"
 
 #: Template/Clients/edit.ctp:24 Template/Clients/view.ctp:10
 msgid "Edit Client"
-msgstr "éditer le client"
+msgstr "クライアントの編集"
 
 #: Template/Clients/index.ctp:10 Template/Clients/view.ctp:13
 msgid "New Client"
-msgstr "Nouveau Client"
+msgstr "新しいクライアント"
 
 #: Template/Clients/index.ctp:16
 msgid "Clients"
-msgstr "Clients"
+msgstr "クライアント"
 
 #: Template/Clients/index.ctp:33 Template/Clients/view.ctp:78
 #: Template/Meals/view.ctp:43 Template/Users/index.ctp:41
 #: Template/Users/view.ctp:80 View/Helper/PaginatorHelper.php:1273
 msgid "View"
-msgstr "Vu"
+msgstr "ビュー"
 
 #: Template/Clients/index.ctp:34 Template/Clients/view.ctp:79
 #: Template/Meals/view.ctp:44 Template/Users/index.ctp:42
 #: Template/Users/view.ctp:81
 msgid "Edit"
-msgstr "Editer"
+msgstr "編集"
 
 #: Template/Clients/index.ctp:43 Template/Users/index.ctp:51
 msgid "first"
-msgstr "premier"
+msgstr "まずは"
 
 #: Template/Clients/index.ctp:44 Template/Users/index.ctp:52
 msgid "previous"
-msgstr "précédant"
+msgstr "先の"
 
 #: Template/Clients/index.ctp:46 Template/Users/index.ctp:54
 msgid "next"
-msgstr "prochain"
+msgstr "次に"
 
 #: Template/Clients/index.ctp:47 Template/Users/index.ctp:55
 msgid "last"
-msgstr "dernier"
+msgstr "前の"
 
 #: Template/Clients/index.ctp:49 Template/Users/index.ctp:57
 msgid ""
 "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
 "total"
 msgstr ""
-"Page {{page}} sur {{pages}}, montrant {{current}} du nombre  {{count}} "
-"total"
+"{{ページ}のページ {{ページ}} のページが表示され、{{現在の}} レコードが {{カ"
+"ウント}} の合計から外れている"
 
 #: Template/Clients/view.ctp:11
 msgid "Delete Client"
-msgstr "Supprimer client"
+msgstr "クライアントの削除"
 
 #: Template/Clients/view.ctp:22 Template/Clients/view.ctp:51
 #: Template/Users/view.ctp:36 Template/Users/view.ctp:53
@@ -189,407 +189,400 @@ msgstr "Id"
 #: Template/Clients/view.ctp:26 Template/Clients/view.ctp:58
 #: Template/Users/view.ctp:40 Template/Users/view.ctp:60
 msgid "Created"
-msgstr "Créer"
+msgstr "作成"
 
 #: Template/Clients/view.ctp:30 Template/Clients/view.ctp:59
 #: Template/Users/view.ctp:44 Template/Users/view.ctp:61
 msgid "Modified"
-msgstr "Modifier"
+msgstr "変更"
 
 #: Template/Clients/view.ctp:35
 msgid "Note"
-msgstr "Note"
+msgstr "メモ"
 
 #: Template/Clients/view.ctp:39
 msgid "Commentaire"
-msgstr "Commentaire"
+msgstr "コメントエア"
 
 #: Template/Clients/view.ctp:43
 msgid "Detail"
-msgstr "Detail"
+msgstr "詳細"
 
 #: Template/Clients/view.ctp:47 Template/Users/view.ctp:49
 msgid "Related Meals"
-msgstr ""
+msgstr "関連する食事"
 
 #: Template/Clients/view.ctp:52 Template/Users/view.ctp:54
 msgid "Prix"
-msgstr "Prix"
+msgstr "価格"
 
 #: Template/Clients/view.ctp:53 Template/Users/view.ctp:55
 msgid "Date"
-msgstr "Date"
+msgstr "日付"
 
 #: Template/Clients/view.ctp:54 Template/Users/view.ctp:56
 msgid "Grosseur"
-msgstr "Grosseur"
+msgstr "グロッサー"
 
 #: Template/Clients/view.ctp:55 Template/Users/view.ctp:57
 msgid "Employer Id"
-msgstr "Employer Id"
+msgstr "雇用主 ID"
 
 #: Template/Clients/view.ctp:56 Template/Users/view.ctp:58
 msgid "Client Id"
-msgstr "Client Id"
+msgstr "クライアント ID"
 
 #: Template/Clients/view.ctp:57 Template/Users/view.ctp:59
 msgid "User Id"
-msgstr "User Id"
+msgstr "ユーザー ID"
 
 #: Template/Clients/view.ctp:60 Template/Users/view.ctp:62
 msgid "Slug"
-msgstr "Slug"
+msgstr "スラグ"
 
 #: Template/Clients/view.ctp:61 Template/Users/view.ctp:63
 msgid "Nom"
-msgstr "Nom"
+msgstr "公称"
 
 #: Template/Layout/error.ctp:36 Template/Error/error400.ctp:36
 #: Template/Error/error500.ctp:41
 msgid "Error"
-msgstr "Erreur"
+msgstr "エラー"
 
 #: Template/Layout/error.ctp:44
 msgid "Back"
-msgstr "derrière"
+msgstr "戻る"
 
 #: Template/Meals/add.ctp:19 Template/Meals/edit.ctp:11
 msgid "Save Meal"
-msgstr "sauvegarder le repas"
+msgstr "食事を保存"
 
 #: Template/Meals/view.ctp:15
 msgid "New Comment"
-msgstr "Nouveau commentaire"
+msgstr "新しいコメント"
 
 #: Template/Meals/view.ctp:18
 msgid "Related Clients"
-msgstr "Client relié"
+msgstr "関連クライアント"
 
 #: Template/Users/add.ctp:11 Template/Users/edit.ctp:16
 #: Template/Users/view.ctp:12
 msgid "List Users"
-msgstr "liste utilisateur"
+msgstr "ユーザーの一覧表示"
 
 #: Template/Users/add.ctp:12 Template/Users/edit.ctp:17
 #: Template/Users/index.ctp:11 Template/Users/view.ctp:14
 msgid "List Roles"
-msgstr "liste des rôles"
+msgstr "ロールの一覧"
 
 #: Template/Users/add.ctp:13 Template/Users/edit.ctp:18
 #: Template/Users/index.ctp:12 Template/Users/view.ctp:15
 msgid "New Role"
-msgstr "nouveau rôle"
+msgstr "新しい役割"
 
 #: Template/Users/add.ctp:22
 msgid "Add User"
-msgstr "ajouter utilisateur"
+msgstr "ユーザーの追加"
 
 #: Template/Users/edit.ctp:26 Template/Users/view.ctp:10
 msgid "Edit User"
-msgstr "editer utilisateur"
+msgstr "ユーザーの編集"
 
 #: Template/Users/index.ctp:10 Template/Users/view.ctp:13
 msgid "New User"
-msgstr "nouvel utilisateur"
+msgstr "新規ユーザー"
 
 #: Template/Users/index.ctp:18
 msgid "Users"
-msgstr "Utilisateur"
+msgstr "ユーザー"
 
 #: Template/Users/view.ctp:11
 msgid "Delete User"
-msgstr "Supprimer Utilisateur"
+msgstr "ユーザーの削除"
 
 #: Template/Users/view.ctp:24
 msgid "Email"
-msgstr "Courriel"
+msgstr "電子メール"
 
 #: Template/Users/view.ctp:28
 msgid "Password"
-msgstr "Mot de passe"
+msgstr "パスワード"
 
 #: Template/Users/view.ctp:32
 msgid "Role"
-msgstr "Rôle"
+msgstr "役割"
 
 #: Template/Error/error400.ctp:37
 msgid "The requested address {0} was not found on this server."
-msgstr "L'address {0} n'a pas été trouver sur le serveur.."
+msgstr "要求されたアドレス{0}はこのサーバーで見つかりませんでした。"
 
 #: Template/Error/error500.ctp:39
 msgid "An Internal Error Has Occurred"
-msgstr "Une erreur interne est survenue"
+msgstr "内部エラーが発生しました"
 
 #: Controller/Component/AuthComponent.php:502
 msgid "You are not authorized to access that location."
-msgstr "Tu n'est pas autorisé à accéder à cette destination. "
+msgstr "その場所にアクセスする権限がありません。"
 
 #: Controller/Component/CsrfComponent.php:181
 #: Http/Middleware/CsrfProtectionMiddleware.php:231
 msgid "Missing CSRF token cookie"
-msgstr "Il manque des token CSRF"
+msgstr "CSRF トークンクッキーがありません"
 
 #: Controller/Component/CsrfComponent.php:185
 #: Http/Middleware/CsrfProtectionMiddleware.php:235
 msgid "CSRF token mismatch."
-msgstr "CSRF de match pas"
+msgstr "CSRF トークンの不一致。"
 
 #: Error/ExceptionRenderer.php:301
 msgid "Not Found"
-msgstr "Pas trouver"
+msgstr "見つかりません"
 
 #: Error/ExceptionRenderer.php:303
 msgid "An Internal Error Has Occurred."
-msgstr "Une erreur interne est survenue"
+msgstr "内部エラーが発生しました。"
 
 #: Http/Response.php:2680
 msgid "The requested file contains `..` and will not be read."
-msgstr "Le fichier demander contient `..` et ne sera pas lu"
+msgstr ""
+"要求されたファイルには '.. が含まれています。' と読み取りされません。"
 
 #: Http/Response.php:2701
 msgid "The requested file was not found"
-msgstr "Le fichier demander n'a pas été trouver"
+msgstr "要求されたファイルが見つかりませんでした"
 
 #: I18n/Number.php:106
 msgid "{0,number,#,###.##} KB"
-msgstr ""
+msgstr "{0,0,数,#,#######}Kb"
 
 #: I18n/Number.php:108
 msgid "{0,number,#,###.##} MB"
-msgstr ""
+msgstr "{0,0,数,#,#######}Mb"
 
 #: I18n/Number.php:110
 msgid "{0,number,#,###.##} GB"
-msgstr ""
+msgstr "{0,0,数,#,#######}Gb"
 
 #: I18n/Number.php:112
 msgid "{0,number,#,###.##} TB"
-msgstr ""
+msgstr "{0,number,#,###.##} TB"
 
 #: I18n/Number.php:104
 msgid "{0,number,integer} Byte"
 msgid_plural "{0,number,integer} Bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0,0,数値,整数}バイト"
 
 #: I18n/RelativeTimeFormatter.php:80
 msgid "{0} from now"
-msgstr "{0} De maintenant"
+msgstr "今から{0}"
 
 #: I18n/RelativeTimeFormatter.php:80
 msgid "{0} ago"
-msgstr "{0} il y a"
+msgstr "{0}前"
 
 #: I18n/RelativeTimeFormatter.php:83
 msgid "{0} after"
-msgstr "{0} après"
+msgstr "{0}後"
 
 #: I18n/RelativeTimeFormatter.php:83
 msgid "{0} before"
-msgstr "{0} avant"
+msgstr "{0}前"
 
 #: I18n/RelativeTimeFormatter.php:114
 msgid "just now"
-msgstr "maintenant "
+msgstr "たった今"
 
 #: I18n/RelativeTimeFormatter.php:151
 msgid "about a second ago"
-msgstr "il y  1 seconde"
+msgstr "約1秒前"
 
 #: I18n/RelativeTimeFormatter.php:152
 msgid "about a minute ago"
-msgstr "il y a 1 minute"
+msgstr "約1分前"
 
 #: I18n/RelativeTimeFormatter.php:153
 msgid "about an hour ago"
-msgstr "il y a 1 heure"
+msgstr "約1時間前"
 
 #: I18n/RelativeTimeFormatter.php:154 I18n/RelativeTimeFormatter.php:332
 msgid "about a day ago"
-msgstr "il y a 1 journée"
+msgstr "1日前"
 
 #: I18n/RelativeTimeFormatter.php:155 I18n/RelativeTimeFormatter.php:333
 msgid "about a week ago"
-msgstr "il y a 1 semaine"
+msgstr "約1週間前"
 
 #: I18n/RelativeTimeFormatter.php:156 I18n/RelativeTimeFormatter.php:334
 msgid "about a month ago"
-msgstr "il y a 1 mois"
+msgstr "約1ヶ月前"
 
 #: I18n/RelativeTimeFormatter.php:157 I18n/RelativeTimeFormatter.php:335
 msgid "about a year ago"
-msgstr "il y a 1 année"
+msgstr "約1年前"
 
 #: I18n/RelativeTimeFormatter.php:168
 msgid "in about a second"
-msgstr ""
+msgstr "約1秒で"
 
 #: I18n/RelativeTimeFormatter.php:169
 msgid "in about a minute"
-msgstr ""
+msgstr "約1分で"
 
 #: I18n/RelativeTimeFormatter.php:170
 msgid "in about an hour"
-msgstr ""
+msgstr "約1時間で"
 
 #: I18n/RelativeTimeFormatter.php:171 I18n/RelativeTimeFormatter.php:346
 msgid "in about a day"
-msgstr ""
+msgstr "一日について"
 
 #: I18n/RelativeTimeFormatter.php:172 I18n/RelativeTimeFormatter.php:347
 msgid "in about a week"
-msgstr ""
+msgstr "約1週間で"
 
 #: I18n/RelativeTimeFormatter.php:173 I18n/RelativeTimeFormatter.php:348
 msgid "in about a month"
-msgstr ""
+msgstr "約1ヶ月で"
 
 #: I18n/RelativeTimeFormatter.php:174 I18n/RelativeTimeFormatter.php:349
 msgid "in about a year"
-msgstr ""
+msgstr "約1年で"
 
 #: I18n/RelativeTimeFormatter.php:304
 msgid "today"
-msgstr ""
+msgstr "今日"
 
 #: I18n/RelativeTimeFormatter.php:370
 msgid "%s ago"
-msgstr ""
+msgstr "%s 前"
 
 #: I18n/RelativeTimeFormatter.php:371
 msgid "on %s"
-msgstr ""
+msgstr "on %s"
 
 #: I18n/RelativeTimeFormatter.php:47 I18n/RelativeTimeFormatter.php:126
 #: I18n/RelativeTimeFormatter.php:316
 msgid "{0} year"
 msgid_plural "{0} years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0}年"
 
 #: I18n/RelativeTimeFormatter.php:51 I18n/RelativeTimeFormatter.php:129
 #: I18n/RelativeTimeFormatter.php:319
 msgid "{0} month"
 msgid_plural "{0} months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0}月"
 
 #: I18n/RelativeTimeFormatter.php:57 I18n/RelativeTimeFormatter.php:132
 #: I18n/RelativeTimeFormatter.php:322
 msgid "{0} week"
 msgid_plural "{0} weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0}週間"
 
 #: I18n/RelativeTimeFormatter.php:59 I18n/RelativeTimeFormatter.php:135
 #: I18n/RelativeTimeFormatter.php:325
 msgid "{0} day"
 msgid_plural "{0} days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0}日"
 
 #: I18n/RelativeTimeFormatter.php:64 I18n/RelativeTimeFormatter.php:138
 msgid "{0} hour"
 msgid_plural "{0} hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0}時間"
 
 #: I18n/RelativeTimeFormatter.php:68 I18n/RelativeTimeFormatter.php:141
 msgid "{0} minute"
 msgid_plural "{0} minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0} minute"
 
 #: I18n/RelativeTimeFormatter.php:72 I18n/RelativeTimeFormatter.php:144
 msgid "{0} second"
 msgid_plural "{0} seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0}秒"
 
 #: ORM/RulesChecker.php:56
 msgid "This value is already in use"
-msgstr "Cette valeur est déjà utilisé"
+msgstr "この値は既に使用されています"
 
 #: ORM/RulesChecker.php:103
 msgid "This value does not exist"
-msgstr "La valeur n'existe pas"
+msgstr "この値は存在しません"
 
 #: ORM/RulesChecker.php:127
 msgid "The count does not match {0}{1}"
-msgstr "Le compte ne match pas {0}{1}"
+msgstr "カウントが{0}{1}に一致しません"
 
 #: Utility/Text.php:933
 msgid "and"
-msgstr "et"
+msgstr "そして"
 
 #: Validation/Validator.php:2510 View/Form/ArrayContext.php:226
 msgid "This field is required"
-msgstr "Ce champs est requis"
+msgstr "このフィールドは必須です"
 
 #: Validation/Validator.php:2532
 msgid "This field cannot be left empty"
-msgstr "Le champs doit être remplis"
+msgstr "このフィールドは空のままにすることはできません"
 
 #: Validation/Validator.php:2691
 msgid "The provided value is invalid"
-msgstr "La valeur est invalide"
+msgstr "指定された値は無効です"
 
 #: View/Helper/FormHelper.php:1114
 msgid "Edit {0}"
-msgstr "Editer {0}"
+msgstr "{0}の編集"
 
 #: View/Helper/FormHelper.php:1116
 msgid "New {0}"
-msgstr "Nouveau {0}"
+msgstr "新しい{0}"
 
 #: View/Helper/HtmlHelper.php:831
 msgid "Home"
-msgstr "Index"
+msgstr "ホーム"
 
 #: View/Widget/DateTimeWidget.php:539
 msgid "January"
-msgstr "Janvier"
+msgstr "1 月"
 
 #: View/Widget/DateTimeWidget.php:540
 msgid "February"
-msgstr "Février"
+msgstr "2 月"
 
 #: View/Widget/DateTimeWidget.php:541
 msgid "March"
-msgstr "Mars"
+msgstr "3 月"
 
 #: View/Widget/DateTimeWidget.php:542
 msgid "April"
-msgstr "Avril"
+msgstr "4 月"
 
 #: View/Widget/DateTimeWidget.php:543
 msgid "May"
-msgstr "May"
+msgstr "5 月"
 
 #: View/Widget/DateTimeWidget.php:544
 msgid "June"
-msgstr "juin"
+msgstr "6 月"
 
 #: View/Widget/DateTimeWidget.php:545
 msgid "July"
-msgstr "Juillet"
+msgstr "7 月"
 
 #: View/Widget/DateTimeWidget.php:546
 msgid "August"
-msgstr "août"
+msgstr "8 月"
 
 #: View/Widget/DateTimeWidget.php:547
 msgid "September"
-msgstr "Septembre"
+msgstr "9 月"
 
 #: View/Widget/DateTimeWidget.php:548
 msgid "October"
-msgstr "Octobre"
+msgstr "10月"
 
 #: View/Widget/DateTimeWidget.php:549
 msgid "November"
-msgstr "Novembre"
+msgstr "11 月"
 
 #: View/Widget/DateTimeWidget.php:550
 msgid "December"
-msgstr "Décembre"
+msgstr "12 月"

@@ -32,7 +32,7 @@ class UsersController extends AppController {
             return false;
         }
 
-        // Check that the article belongs to the current user.
+        // Check that the meal belongs to the current user.
         if($id == $user['id']){
             return true;
         }else{

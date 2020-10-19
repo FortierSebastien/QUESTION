@@ -1,4 +1,4 @@
-<!-- File: src/Template/Articles/view.ctp -->
+<!-- File: src/Template/Meals/view.ctp -->
 
 <h1><?= h($meal->nom) ?> </h1>
 <h3>Prix du repas: <?= h($meal->prix) ?>$ </h3>

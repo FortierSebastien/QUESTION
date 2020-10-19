@@ -1,6 +1,6 @@
-<!-- File: src/Template/Articles/index.ctp  (edit links added) -->
+<!-- File: src/Template/Meals/index.ctp  (edit links added) -->
 
-<h1>Articles</h1>
+<h1>Meals</h1>
 <p><?= $this->Html->link("Add Meal", ['action' => 'add']) ?></p>
 <table>
     <tr>
@@ -11,7 +11,7 @@
 
     </tr>
 
-<!-- Here's where we iterate through our $articles query object, printing out meal info -->
+<!-- Here's where we iterate through our $meals query object, printing out meal info -->
 
 <?php foreach ($meals as $meal): ?>
     <tr>

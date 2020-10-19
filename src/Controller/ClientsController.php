@@ -53,7 +53,7 @@ class ClientsController extends AppController
     {
       
         if ($this->request->getSession()->read('Meal.id') == false) {
-            $this->Flash->error(__('Client must be added from an article'));
+            $this->Flash->error(__('Client must be added from an meal'));
             return $this->redirect(['controller' => 'clients', 'action' => 'index']);
         } else {
             $client = $this->Clients->newEntity();

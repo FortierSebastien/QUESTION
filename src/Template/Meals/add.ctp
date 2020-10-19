@@ -1,4 +1,4 @@
-<!-- File: src/Template/Articles/add.ctp -->
+<!-- File: src/Template/Meals/add.ctp -->
 
 <h1>Add Meal</h1>
 <?php

@@ -1,4 +1,4 @@
-2020-10-14 00:00:58 Notice: Notice (1024): Undefined property: MealsController::$Articles in C:\Program Files\Ampps2\www\tp1\tp1\src\Controller\MealsController.php on line 60 in [C:\Program Files\Ampps2\www\tp1\tp1\vendor\cakephp\cakephp\src\Controller\Controller.php, line 384]
+2020-10-14 00:00:58 Notice: Notice (1024): Undefined property: MealsController::$Meals in C:\Program Files\Ampps2\www\tp1\tp1\src\Controller\MealsController.php on line 60 in [C:\Program Files\Ampps2\www\tp1\tp1\vendor\cakephp\cakephp\src\Controller\Controller.php, line 384]
 Request URL: /meals/delete/A-effacer
 Referer URL: http://localhost/tp1/tp1/meals
 Trace:
