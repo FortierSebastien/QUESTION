@@ -4,8 +4,35 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Model/Table/ClientsTable.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Locale/ja_JP/default.po</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Tags/index.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Controller/UsersController.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Model/Entity/Meal.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Controller/MealsController.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Controller/TagsController.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/phpunit.xml.dist</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Model/Entity/Client.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Clients/add.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Tags/edit.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Meals/tags.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Tags/add.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Meals/index.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Meals/view.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Users/index.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Model/Table/TagsTable.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Meals/add.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Model/Entity/Tag.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Controller/AppController.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Tags/view.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Clients/view.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Meals/edit.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/config/app.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Locale/fr_CA/default.po</file>
             <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Model/Table/MealsTable.php</file>
-            <file>file:/C:/Program%20Files/Ampps/www/tp1/logs/debug.log</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Template/Users/add.ctp</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Locale/default.pot</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Controller/ClientsController.php</file>
+            <file>file:/C:/Program%20Files/Ampps/www/tp1/src/Model/Table/UsersTable.php</file>
         </group>
     </open-files>
 </project-private>

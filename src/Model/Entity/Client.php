@@ -32,6 +32,6 @@ class Client extends Entity
         'detail' => true,
         'created' => true,
         'modified' => true,
-        'meals' => true,
+        'meal' => true,
     ];
 }

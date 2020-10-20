@@ -262,7 +262,7 @@ msgid "Save Meal"
 msgstr "Shokuji o hozon suru"
 
 #: Template/Meals/view.ctp:15
-msgid "New Comment"
+msgid "New Client"
 msgstr "Atarashī komento"
 
 #: Template/Meals/view.ctp:18

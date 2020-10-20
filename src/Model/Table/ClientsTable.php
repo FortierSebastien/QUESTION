@@ -76,4 +76,10 @@ class ClientsTable extends Table
 
         return $validator;
     }
+    public function buildRules(RulesChecker $rules)
+    {
+        $rules->add($rules->existsIn(['meal_id'], 'Meals'));
+
+        return $rules;
+    }
 }

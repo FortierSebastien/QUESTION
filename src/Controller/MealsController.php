@@ -1,10 +1,15 @@
 <?php
 
-// src/Controller/ArticlesController.php
+// src/Controller/sController.php
 
 namespace App\Controller;
 
 class MealsController extends AppController {
+    
+    public function initialize() {
+        parent::initialize();
+        $this->Auth->allow(['tags']);
+    }
 
     public function isAuthorized($user) {
         $action = $this->request->getParam('action');
@@ -27,6 +32,19 @@ class MealsController extends AppController {
 
         return $meal->user_id === $user['id'];
     }
+    
+    public function tags(...$tags) {
+        // Use the sTable to find tagged meals.
+        $meals = $this->Meals->find('tagged', [
+            'tags' => $tags
+        ]);
+
+        // Pass variables into the view template context.
+        $this->set([
+            'meals' => $meals,
+            'tags' => $tags
+        ]);
+    }
 
     public function index() {
         $this->loadComponent('Paginator');
@@ -37,11 +55,11 @@ class MealsController extends AppController {
         $this->set(compact('meals'));
     }
 
-    // Add to existing src/Controller/ArticlesController.php file
+    // Add to existing src/Controller/sController.php file
 
     public function view($slug = null) {
-        $meal = $this->Meals->findBySlug($slug)->firstOrFail();
-        $this->set(compact('meal'));
+        $meal = $this->Meals->find()->where(['Meals.slug' => $slug])->contain(['Client','Tags'])->firstOrFail();
+        $this->set(compact('meal',$meal));
     }
 
     public function add() {
@@ -72,7 +90,7 @@ class MealsController extends AppController {
         $meal = $this->Meals->findBySlug($slug)
                 ->contain('Tags')
                 ->firstOrFail();
-        if ($this->request->is(['post', 'put'])) {
+        if ($this->request->is(['patch','post', 'put'])) {
             $this->Meals->patchEntity($meal, $this->request->getData(), [
                 // Added: Disable modification of user_id.
                 'accessibleFields' => ['user_id' => false]
@@ -84,8 +102,12 @@ class MealsController extends AppController {
             }
             $this->Flash->error(__('Unable to update your meal.'));
         }
+         $tags = $this->Meals->Tags->find('list', ['limit' => 200]);
 
-        $this->set('meal', $meal);
+        
+
+        $this->set(compact('meal', 'tags'));
+      //  $this->set('meal', $meal);
     }
 
     public function delete($slug) {

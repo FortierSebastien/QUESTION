@@ -1,6 +1,6 @@
 <?php
 
-// src/Model/Entity/Article.php
+// src/Model/Entity/.php
 
 namespace App\Model\Entity;
 
@@ -11,7 +11,7 @@ class Meal extends Entity {
     protected $_accessible = [
         '*' => true,
         'id' => false,
-        'slug' => false,
+        'slug' => true,
     ];
 
 }

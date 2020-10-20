@@ -262,7 +262,7 @@ msgid "Save Meal"
 msgstr "sauvegarder le repas"
 
 #: Template/Meals/view.ctp:15
-msgid "New Comment"
+msgid "New Client"
 msgstr "Nouveau commentaire"
 
 #: Template/Meals/view.ctp:18
