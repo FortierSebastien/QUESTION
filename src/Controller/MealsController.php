@@ -12,6 +12,9 @@ class MealsController extends AppController {
         if (in_array($action, ['add', 'tags'])) {
             return true;
         }
+        /*if($user['role_id'===3]){
+            return true;
+        }*/
 
         // All other actions require a slug.
         $slug = $this->request->getParam('pass.0');
@@ -56,11 +59,19 @@ class MealsController extends AppController {
             }
             $this->Flash->error(__('Unable to add your meal.'));
         }
-        $this->set('meal', $meal);
+        // Get a list of tags.
+        $tags = $this->Meals->Tags->find('list', ['limit' => 200]);
+
+        
+
+        $this->set(compact('meal', 'tags'));
+      //  $this->set('meal', $meal);
     }
 
     public function edit($slug) {
-        $meal = $this->Meals->findBySlug($slug)->firstOrFail();
+        $meal = $this->Meals->findBySlug($slug)
+                ->contain('Tags')
+                ->firstOrFail();
         if ($this->request->is(['post', 'put'])) {
             $this->Meals->patchEntity($meal, $this->request->getData(), [
                 // Added: Disable modification of user_id.

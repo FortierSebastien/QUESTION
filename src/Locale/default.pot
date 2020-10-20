@@ -14,6 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+#: Template/Meals/index.ctp:7
+msgid "Title"
+msgstr ""
+
+
 #: Controller/ClientsController.php:56
 msgid "Client must be added from an meal"
 msgstr ""

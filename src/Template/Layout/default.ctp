@@ -49,7 +49,7 @@ $loguser = $this->request->getSession()->read('Auth.User');
  if ($loguser) {
     $user = $loguser['email'];
     echo "<span>".$this->Html->link($user,['controller'=>'Users','action'=>'view',$loguser['id']]);
-    echo $this->Html->link($user . ' logout', ['controller' => 'Users', 'action' => 'logout'])."</span>";
+    echo $this->Html->link(' logout', ['controller' => 'Users', 'action' => 'logout'])."</span>";
 } else {
     echo $this->Html->link('login', ['controller' => 'Users', 'action' => 'login']);
 }
@@ -57,6 +57,7 @@ $loguser = $this->request->getSession()->read('Auth.User');
                     
                      <li><?=$this->Html->link('Français', ['action' => 'changeLang', 'fr_CA'], ['escape' => false]);?></li>
                      <li><?=$this->Html->link('Englais', ['action' => 'changeLang', 'en_US'], ['escape' => false]);?></li>
+                     <li><?=$this->Html->link('Japonais', ['action' => 'changeLang', 'ja_JP'], ['escape' => false]);?></li>
                     
                     <li><a target="_blank" href="https://book.cakephp.org/3/">Documentation</a></li>
                     <li><a target="_blank" href="https://api.cakephp.org/3.0/">API</a></li>

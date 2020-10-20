@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2020-10-14 07:28+0000\n"
-"PO-Revision-Date: 2020-10-18 16:42-0700\n"
+"PO-Revision-Date: 2020-10-18 21:38-0700\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,65 +15,69 @@ msgstr ""
 "Last-Translator: \n"
 "Language: ja_JP\n"
 
+#: Template/Meals/index.ctp:7
+msgid "Title"
+msgstr "TEST"
+
 #: Controller/ClientsController.php:56
 msgid "Client must be added from an meal"
-msgstr "お食事からクライアントを追加する必要があります"
+msgstr "Kuraianto wa shokuji kara tsuika suru hitsuyō ga arimasu"
 
 #: Controller/ClientsController.php:66 Controller/ClientsController.php:92
 msgid "The client has been saved."
-msgstr "クライアントは保存されました。"
+msgstr "Kuraianto ga hozon sa remashita."
 
 #: Controller/ClientsController.php:70
 msgid "The comment could not be saved. Please, try again."
-msgstr "コメントを保存できませんでした。もう一度お試しください。"
+msgstr "Komento o hozon dekimasendeshita. Mōichido yarinaoshite kudasai."
 
 #: Controller/ClientsController.php:96
 msgid "The client could not be saved. Please, try again."
-msgstr "コメントを保存できませんでした。もう一度お試しください。"
+msgstr "Kuraianto o hozon dekimasendeshita. Mōichido yarinaoshite kudasai."
 
 #: Controller/ClientsController.php:113
 msgid "The client has been deleted."
-msgstr "クライアントは削除されました。"
+msgstr "Kuraianto ga sakujosaremashita."
 
 #: Controller/ClientsController.php:115
 msgid "The client could not be deleted. Please, try again."
-msgstr "クライアントを削除できませんでした。もう一度お試しください。"
+msgstr "Kuraianto o sakujo dekimasendeshita. Mōichido yarinaoshite kudasai."
 
 #: Controller/MealsController.php:54
 msgid "Your meal has been saved."
-msgstr "あなたの食事は保存されました。"
+msgstr "Anata no shokuji wa hozon sa remashita."
 
 #: Controller/MealsController.php:57
 msgid "Unable to add your meal."
-msgstr "食事を追加できません。"
+msgstr "Shokuji o tsuika dekimasen."
 
 #: Controller/MealsController.php:71
 msgid "Your meal has been updated."
-msgstr "お食事が更新されました。"
+msgstr "Shokuji ga kōshin sa remashita."
 
 #: Controller/MealsController.php:74
 msgid "Unable to update your meal."
-msgstr "食事を更新できません。"
+msgstr "Shokuji o kōshin dekimasen."
 
 #: Controller/MealsController.php:85
 msgid "The {0} meal has been deleted."
-msgstr "{0}食事は削除されました。"
+msgstr "{0 } Shokuji wa sakujosaremashita."
 
 #: Controller/UsersController.php:77 Controller/UsersController.php:101
 msgid "The user has been saved."
-msgstr "ユーザーが保存されました。"
+msgstr "Yūzā ga hozon sa remashita."
 
 #: Controller/UsersController.php:81 Controller/UsersController.php:105
 msgid "The user could not be saved. Please, try again."
-msgstr "ユーザーを保存できませんでした。もう一度お試しください。"
+msgstr "Yūzā o hozon dekimasendeshita. Mōichido yarinaoshite kudasai."
 
 #: Controller/UsersController.php:122
 msgid "The user has been deleted."
-msgstr "ユーザーは削除されました。"
+msgstr "Yūzā ga sakujosaremashita."
 
 #: Controller/UsersController.php:124
 msgid "The user could not be deleted. Please, try again."
-msgstr "ユーザーを削除できませんでした。もう一度お試しください。"
+msgstr "Yūzā o sakujo dekimasendeshita. Mōichido yarinaoshite kudasai."
 
 #: Template/Clients/add.ctp:9 Template/Clients/edit.ctp:9
 #: Template/Clients/index.ctp:9 Template/Clients/index.ctp:23
@@ -83,43 +87,43 @@ msgstr "ユーザーを削除できませんでした。もう一度お試しく
 #: Template/Users/index.ctp:28 Template/Users/view.ctp:9
 #: Template/Users/view.ctp:64
 msgid "Actions"
-msgstr "アクション"
+msgstr "Kōdō"
 
 #: Template/Clients/add.ctp:10 Template/Clients/edit.ctp:16
 #: Template/Clients/view.ctp:12
 msgid "List Clients"
-msgstr "クライアントの一覧表示"
+msgstr "Kuraianto no ichiran hyōji"
 
 #: Template/Clients/add.ctp:11 Template/Clients/edit.ctp:17
 #: Template/Clients/index.ctp:11 Template/Clients/view.ctp:14
 #: Template/Users/add.ctp:14 Template/Users/edit.ctp:19
 #: Template/Users/index.ctp:13 Template/Users/view.ctp:16
 msgid "List Meals"
-msgstr "食事のリスト"
+msgstr "Shokuji no risuto"
 
 #: Template/Clients/add.ctp:12 Template/Clients/edit.ctp:18
 #: Template/Clients/index.ctp:12 Template/Clients/view.ctp:15
 #: Template/Users/add.ctp:15 Template/Users/edit.ctp:20
 #: Template/Users/index.ctp:14 Template/Users/view.ctp:17
 msgid "New Meal"
-msgstr "新しい食事"
+msgstr "Atarashī shokuji"
 
 #: Template/Clients/add.ctp:18
 msgid "Add Client"
-msgstr "クライアントの追加"
+msgstr "Kuraianto o tsuika"
 
 #: Template/Clients/add.ctp:25 Template/Clients/edit.ctp:31
 #: Template/Users/add.ctp:34 Template/Users/edit.ctp:33
 #: View/Helper/FormHelper.php:2036
 msgid "Submit"
-msgstr "送信"
+msgstr "Sanka suru"
 
 #: Template/Clients/edit.ctp:11 Template/Clients/index.ctp:35
 #: Template/Clients/view.ctp:80 Template/Meals/view.ctp:45
 #: Template/Users/edit.ctp:11 Template/Users/index.ctp:43
 #: Template/Users/view.ctp:82
 msgid "Delete"
-msgstr "削除"
+msgstr "Sakujo"
 
 #: Template/Clients/edit.ctp:13 Template/Clients/index.ctp:35
 #: Template/Clients/view.ctp:11 Template/Clients/view.ctp:80
@@ -127,59 +131,59 @@ msgstr "削除"
 #: Template/Users/index.ctp:43 Template/Users/view.ctp:11
 #: Template/Users/view.ctp:82
 msgid "Are you sure you want to delete # {0}?"
-msgstr "# {0}を削除しますか?"
+msgstr "#{0 } O sakujo shite mo yoroshīdesu ka?"
 
 #: Template/Clients/edit.ctp:24 Template/Clients/view.ctp:10
 msgid "Edit Client"
-msgstr "クライアントの編集"
+msgstr "Kuraianto no henshū"
 
 #: Template/Clients/index.ctp:10 Template/Clients/view.ctp:13
 msgid "New Client"
-msgstr "新しいクライアント"
+msgstr "Shinki kuraianto"
 
 #: Template/Clients/index.ctp:16
 msgid "Clients"
-msgstr "クライアント"
+msgstr ""
 
 #: Template/Clients/index.ctp:33 Template/Clients/view.ctp:78
 #: Template/Meals/view.ctp:43 Template/Users/index.ctp:41
 #: Template/Users/view.ctp:80 View/Helper/PaginatorHelper.php:1273
 msgid "View"
-msgstr "ビュー"
+msgstr "Miru"
 
 #: Template/Clients/index.ctp:34 Template/Clients/view.ctp:79
 #: Template/Meals/view.ctp:44 Template/Users/index.ctp:42
 #: Template/Users/view.ctp:81
 msgid "Edit"
-msgstr "編集"
+msgstr "Henshū"
 
 #: Template/Clients/index.ctp:43 Template/Users/index.ctp:51
 msgid "first"
-msgstr "まずは"
+msgstr "Saisho"
 
 #: Template/Clients/index.ctp:44 Template/Users/index.ctp:52
 msgid "previous"
-msgstr "先の"
+msgstr "Mae"
 
 #: Template/Clients/index.ctp:46 Template/Users/index.ctp:54
 msgid "next"
-msgstr "次に"
+msgstr "Tsugi"
 
 #: Template/Clients/index.ctp:47 Template/Users/index.ctp:55
 msgid "last"
-msgstr "前の"
+msgstr "Saishū"
 
 #: Template/Clients/index.ctp:49 Template/Users/index.ctp:57
 msgid ""
 "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
 "total"
 msgstr ""
-"{{ページ}のページ {{ページ}} のページが表示され、{{現在の}} レコードが {{カ"
-"ウント}} の合計から外れている"
+"{{Pages} } no pēji { {pēji}},{{kaunto} } no gōkei no uchi {{current} } "
+"rekōdo o hyōji"
 
 #: Template/Clients/view.ctp:11
 msgid "Delete Client"
-msgstr "クライアントの削除"
+msgstr "Kuraianto o sakujo suru"
 
 #: Template/Clients/view.ctp:22 Template/Clients/view.ctp:51
 #: Template/Users/view.ctp:36 Template/Users/view.ctp:53
@@ -189,179 +193,179 @@ msgstr "Id"
 #: Template/Clients/view.ctp:26 Template/Clients/view.ctp:58
 #: Template/Users/view.ctp:40 Template/Users/view.ctp:60
 msgid "Created"
-msgstr "作成"
+msgstr "Sakusei shita"
 
 #: Template/Clients/view.ctp:30 Template/Clients/view.ctp:59
 #: Template/Users/view.ctp:44 Template/Users/view.ctp:61
 msgid "Modified"
-msgstr "変更"
+msgstr "Henkō"
 
 #: Template/Clients/view.ctp:35
 msgid "Note"
-msgstr "メモ"
+msgstr "Chūi"
 
 #: Template/Clients/view.ctp:39
 msgid "Commentaire"
-msgstr "コメントエア"
+msgstr "Kaisetsu"
 
 #: Template/Clients/view.ctp:43
 msgid "Detail"
-msgstr "詳細"
+msgstr "Shōsai"
 
 #: Template/Clients/view.ctp:47 Template/Users/view.ctp:49
 msgid "Related Meals"
-msgstr "関連する食事"
+msgstr "Kanren suru shokuji"
 
 #: Template/Clients/view.ctp:52 Template/Users/view.ctp:54
 msgid "Prix"
-msgstr "価格"
+msgstr "Purikkusu"
 
 #: Template/Clients/view.ctp:53 Template/Users/view.ctp:55
 msgid "Date"
-msgstr "日付"
+msgstr "Hidzuke"
 
 #: Template/Clients/view.ctp:54 Template/Users/view.ctp:56
 msgid "Grosseur"
-msgstr "グロッサー"
+msgstr "Saizu"
 
 #: Template/Clients/view.ctp:55 Template/Users/view.ctp:57
 msgid "Employer Id"
-msgstr "雇用主 ID"
+msgstr "Koyō-sha ID"
 
 #: Template/Clients/view.ctp:56 Template/Users/view.ctp:58
 msgid "Client Id"
-msgstr "クライアント ID"
+msgstr "Kuraianto ID"
 
 #: Template/Clients/view.ctp:57 Template/Users/view.ctp:59
 msgid "User Id"
-msgstr "ユーザー ID"
+msgstr "Yūzā ID"
 
 #: Template/Clients/view.ctp:60 Template/Users/view.ctp:62
 msgid "Slug"
-msgstr "スラグ"
+msgstr "Namekuji"
 
 #: Template/Clients/view.ctp:61 Template/Users/view.ctp:63
 msgid "Nom"
-msgstr "公称"
+msgstr "Nomu"
 
 #: Template/Layout/error.ctp:36 Template/Error/error400.ctp:36
 #: Template/Error/error500.ctp:41
 msgid "Error"
-msgstr "エラー"
+msgstr "Erā"
 
 #: Template/Layout/error.ctp:44
 msgid "Back"
-msgstr "戻る"
+msgstr "Bakku"
 
 #: Template/Meals/add.ctp:19 Template/Meals/edit.ctp:11
 msgid "Save Meal"
-msgstr "食事を保存"
+msgstr "Shokuji o hozon suru"
 
 #: Template/Meals/view.ctp:15
 msgid "New Comment"
-msgstr "新しいコメント"
+msgstr "Atarashī komento"
 
 #: Template/Meals/view.ctp:18
 msgid "Related Clients"
-msgstr "関連クライアント"
+msgstr "Kanren kuraianto"
 
 #: Template/Users/add.ctp:11 Template/Users/edit.ctp:16
 #: Template/Users/view.ctp:12
 msgid "List Users"
-msgstr "ユーザーの一覧表示"
+msgstr "Yūzā no ichiran hyōji"
 
 #: Template/Users/add.ctp:12 Template/Users/edit.ctp:17
 #: Template/Users/index.ctp:11 Template/Users/view.ctp:14
 msgid "List Roles"
-msgstr "ロールの一覧"
+msgstr "Yakuwari no ichiran hyōji"
 
 #: Template/Users/add.ctp:13 Template/Users/edit.ctp:18
 #: Template/Users/index.ctp:12 Template/Users/view.ctp:15
 msgid "New Role"
-msgstr "新しい役割"
+msgstr "Atarashī yakuwari"
 
 #: Template/Users/add.ctp:22
 msgid "Add User"
-msgstr "ユーザーの追加"
+msgstr "Yūzā o tsuika suru"
 
 #: Template/Users/edit.ctp:26 Template/Users/view.ctp:10
 msgid "Edit User"
-msgstr "ユーザーの編集"
+msgstr "Yūzā no henshū"
 
 #: Template/Users/index.ctp:10 Template/Users/view.ctp:13
 msgid "New User"
-msgstr "新規ユーザー"
+msgstr "Atarashī yūzā"
 
 #: Template/Users/index.ctp:18
 msgid "Users"
-msgstr "ユーザー"
+msgstr "Yūzā"
 
 #: Template/Users/view.ctp:11
 msgid "Delete User"
-msgstr "ユーザーの削除"
+msgstr "Yūzā no sakujo"
 
 #: Template/Users/view.ctp:24
 msgid "Email"
-msgstr "電子メール"
+msgstr "E mēru"
 
 #: Template/Users/view.ctp:28
 msgid "Password"
-msgstr "パスワード"
+msgstr "Pasuwādo"
 
 #: Template/Users/view.ctp:32
 msgid "Role"
-msgstr "役割"
+msgstr "Yakuwari"
 
 #: Template/Error/error400.ctp:37
 msgid "The requested address {0} was not found on this server."
-msgstr "要求されたアドレス{0}はこのサーバーで見つかりませんでした。"
+msgstr ""
+"Rikuesuto sa reta adoresu {0 } wa kono sābā de mitsukarimasendeshita."
 
 #: Template/Error/error500.ctp:39
 msgid "An Internal Error Has Occurred"
-msgstr "内部エラーが発生しました"
+msgstr "Naibu erā ga hassei shimashita"
 
 #: Controller/Component/AuthComponent.php:502
 msgid "You are not authorized to access that location."
-msgstr "その場所にアクセスする権限がありません。"
+msgstr "Sono basho e no akusesu wa kyoka sa rete imasen."
 
 #: Controller/Component/CsrfComponent.php:181
 #: Http/Middleware/CsrfProtectionMiddleware.php:231
 msgid "Missing CSRF token cookie"
-msgstr "CSRF トークンクッキーがありません"
+msgstr "CSRF tōkun kukkī ga arimasen"
 
 #: Controller/Component/CsrfComponent.php:185
 #: Http/Middleware/CsrfProtectionMiddleware.php:235
 msgid "CSRF token mismatch."
-msgstr "CSRF トークンの不一致。"
+msgstr "CSRF tōkun no fuitchi."
 
 #: Error/ExceptionRenderer.php:301
 msgid "Not Found"
-msgstr "見つかりません"
+msgstr "Mitsukarimasen"
 
 #: Error/ExceptionRenderer.php:303
 msgid "An Internal Error Has Occurred."
-msgstr "内部エラーが発生しました。"
+msgstr "Naibu erā ga hassei shimashita."
 
 #: Http/Response.php:2680
 msgid "The requested file contains `..` and will not be read."
-msgstr ""
-"要求されたファイルには '.. が含まれています。' と読み取りされません。"
+msgstr "Yōkyū sa reta fairuni wa `..`Ga fukuma rete ori, yomitora remasen."
 
 #: Http/Response.php:2701
 msgid "The requested file was not found"
-msgstr "要求されたファイルが見つかりませんでした"
+msgstr "Yōkyū sa reta fairu ga mitsukarimasendeshita"
 
 #: I18n/Number.php:106
 msgid "{0,number,#,###.##} KB"
-msgstr "{0,0,数,#,#######}Kb"
+msgstr "{0,number,#,###.##} KB"
 
 #: I18n/Number.php:108
 msgid "{0,number,#,###.##} MB"
-msgstr "{0,0,数,#,#######}Mb"
+msgstr "{0,number,#,###.##} MB"
 
 #: I18n/Number.php:110
 msgid "{0,number,#,###.##} GB"
-msgstr "{0,0,数,#,#######}Gb"
+msgstr "{0,number,#,###.##} GB"
 
 #: I18n/Number.php:112
 msgid "{0,number,#,###.##} TB"
@@ -370,219 +374,219 @@ msgstr "{0,number,#,###.##} TB"
 #: I18n/Number.php:104
 msgid "{0,number,integer} Byte"
 msgid_plural "{0,number,integer} Bytes"
-msgstr[0] "{0,0,数値,整数}バイト"
+msgstr[0] "{0 , Number, integer} baito"
 
 #: I18n/RelativeTimeFormatter.php:80
 msgid "{0} from now"
-msgstr "今から{0}"
+msgstr "Ima kara {0 }"
 
 #: I18n/RelativeTimeFormatter.php:80
 msgid "{0} ago"
-msgstr "{0}前"
+msgstr "{0 } Mae"
 
 #: I18n/RelativeTimeFormatter.php:83
 msgid "{0} after"
-msgstr "{0}後"
+msgstr "{0 }-Go"
 
 #: I18n/RelativeTimeFormatter.php:83
 msgid "{0} before"
-msgstr "{0}前"
+msgstr "{0 } Mae"
 
 #: I18n/RelativeTimeFormatter.php:114
 msgid "just now"
-msgstr "たった今"
+msgstr "Chōdo ima"
 
 #: I18n/RelativeTimeFormatter.php:151
 msgid "about a second ago"
-msgstr "約1秒前"
+msgstr "Yaku 1-byō mae"
 
 #: I18n/RelativeTimeFormatter.php:152
 msgid "about a minute ago"
-msgstr "約1分前"
+msgstr "Yaku ichi-bu mae"
 
 #: I18n/RelativeTimeFormatter.php:153
 msgid "about an hour ago"
-msgstr "約1時間前"
+msgstr "Ichi-jikan gurai mae ni"
 
 #: I18n/RelativeTimeFormatter.php:154 I18n/RelativeTimeFormatter.php:332
 msgid "about a day ago"
-msgstr "1日前"
+msgstr "Yaku 1-nichi mae"
 
 #: I18n/RelativeTimeFormatter.php:155 I18n/RelativeTimeFormatter.php:333
 msgid "about a week ago"
-msgstr "約1週間前"
+msgstr "Yaku 1-shūkan mae"
 
 #: I18n/RelativeTimeFormatter.php:156 I18n/RelativeTimeFormatter.php:334
 msgid "about a month ago"
-msgstr "約1ヶ月前"
+msgstr "Yaku 1-kagetsu mae"
 
 #: I18n/RelativeTimeFormatter.php:157 I18n/RelativeTimeFormatter.php:335
 msgid "about a year ago"
-msgstr "約1年前"
+msgstr "Yaku 1-nen mae"
 
 #: I18n/RelativeTimeFormatter.php:168
 msgid "in about a second"
-msgstr "約1秒で"
+msgstr "Yaku 1-byō de"
 
 #: I18n/RelativeTimeFormatter.php:169
 msgid "in about a minute"
-msgstr "約1分で"
+msgstr "Yaku 1-bu de"
 
 #: I18n/RelativeTimeFormatter.php:170
 msgid "in about an hour"
-msgstr "約1時間で"
+msgstr "Yaku 1-jikan de"
 
 #: I18n/RelativeTimeFormatter.php:171 I18n/RelativeTimeFormatter.php:346
 msgid "in about a day"
-msgstr "一日について"
+msgstr "Yaku 1-nichi de"
 
 #: I18n/RelativeTimeFormatter.php:172 I18n/RelativeTimeFormatter.php:347
 msgid "in about a week"
-msgstr "約1週間で"
+msgstr "Yaku 1-shūkan de"
 
 #: I18n/RelativeTimeFormatter.php:173 I18n/RelativeTimeFormatter.php:348
 msgid "in about a month"
-msgstr "約1ヶ月で"
+msgstr "in about a month"
 
 #: I18n/RelativeTimeFormatter.php:174 I18n/RelativeTimeFormatter.php:349
 msgid "in about a year"
-msgstr "約1年で"
+msgstr "Yaku 1-nen de"
 
 #: I18n/RelativeTimeFormatter.php:304
 msgid "today"
-msgstr "今日"
+msgstr "Kyō"
 
 #: I18n/RelativeTimeFormatter.php:370
 msgid "%s ago"
-msgstr "%s 前"
+msgstr "Pāsento s mae"
 
 #: I18n/RelativeTimeFormatter.php:371
 msgid "on %s"
-msgstr "on %s"
+msgstr "Pāsento s de"
 
 #: I18n/RelativeTimeFormatter.php:47 I18n/RelativeTimeFormatter.php:126
 #: I18n/RelativeTimeFormatter.php:316
 msgid "{0} year"
 msgid_plural "{0} years"
-msgstr[0] "{0}年"
+msgstr[0] "{0 }-Nen"
 
 #: I18n/RelativeTimeFormatter.php:51 I18n/RelativeTimeFormatter.php:129
 #: I18n/RelativeTimeFormatter.php:319
 msgid "{0} month"
 msgid_plural "{0} months"
-msgstr[0] "{0}月"
+msgstr[0] "{0 } Tsuki"
 
 #: I18n/RelativeTimeFormatter.php:57 I18n/RelativeTimeFormatter.php:132
 #: I18n/RelativeTimeFormatter.php:322
 msgid "{0} week"
 msgid_plural "{0} weeks"
-msgstr[0] "{0}週間"
+msgstr[0] "{0 } Shū"
 
 #: I18n/RelativeTimeFormatter.php:59 I18n/RelativeTimeFormatter.php:135
 #: I18n/RelativeTimeFormatter.php:325
 msgid "{0} day"
 msgid_plural "{0} days"
-msgstr[0] "{0}日"
+msgstr[0] "{0 }-Bi"
 
 #: I18n/RelativeTimeFormatter.php:64 I18n/RelativeTimeFormatter.php:138
 msgid "{0} hour"
 msgid_plural "{0} hours"
-msgstr[0] "{0}時間"
+msgstr[0] "{0 } Jikan"
 
 #: I18n/RelativeTimeFormatter.php:68 I18n/RelativeTimeFormatter.php:141
 msgid "{0} minute"
 msgid_plural "{0} minutes"
-msgstr[0] "{0} minute"
+msgstr[0] "{0 }-Bun"
 
 #: I18n/RelativeTimeFormatter.php:72 I18n/RelativeTimeFormatter.php:144
 msgid "{0} second"
 msgid_plural "{0} seconds"
-msgstr[0] "{0}秒"
+msgstr[0] "{0 } Byō"
 
 #: ORM/RulesChecker.php:56
 msgid "This value is already in use"
-msgstr "この値は既に使用されています"
+msgstr "Kono atai wa sudeni shiyō sa rete imasu"
 
 #: ORM/RulesChecker.php:103
 msgid "This value does not exist"
-msgstr "この値は存在しません"
+msgstr "Kono atai wa sonzai shimasen"
 
 #: ORM/RulesChecker.php:127
 msgid "The count does not match {0}{1}"
-msgstr "カウントが{0}{1}に一致しません"
+msgstr "Kaunto ga {0 } {1 } to itchi shimasen"
 
 #: Utility/Text.php:933
 msgid "and"
-msgstr "そして"
+msgstr "Soshite"
 
 #: Validation/Validator.php:2510 View/Form/ArrayContext.php:226
 msgid "This field is required"
-msgstr "このフィールドは必須です"
+msgstr "Kono kōmoku wa hissudesu"
 
 #: Validation/Validator.php:2532
 msgid "This field cannot be left empty"
-msgstr "このフィールドは空のままにすることはできません"
+msgstr "Kono fīrudo o sora no mama ni suru koto wa dekimasen"
 
 #: Validation/Validator.php:2691
 msgid "The provided value is invalid"
-msgstr "指定された値は無効です"
+msgstr "Shitei sa reta atai ga mukōdesu"
 
 #: View/Helper/FormHelper.php:1114
 msgid "Edit {0}"
-msgstr "{0}の編集"
+msgstr "{0 } O henshū"
 
 #: View/Helper/FormHelper.php:1116
 msgid "New {0}"
-msgstr "新しい{0}"
+msgstr "Atarashī {0 }"
 
 #: View/Helper/HtmlHelper.php:831
 msgid "Home"
-msgstr "ホーム"
+msgstr "Hōmu"
 
 #: View/Widget/DateTimeWidget.php:539
 msgid "January"
-msgstr "1 月"
+msgstr "1 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:540
 msgid "February"
-msgstr "2 月"
+msgstr "2 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:541
 msgid "March"
-msgstr "3 月"
+msgstr "3 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:542
 msgid "April"
-msgstr "4 月"
+msgstr "4 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:543
 msgid "May"
-msgstr "5 月"
+msgstr "5 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:544
 msgid "June"
-msgstr "6 月"
+msgstr "6 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:545
 msgid "July"
-msgstr "7 月"
+msgstr "7 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:546
 msgid "August"
-msgstr "8 月"
+msgstr "8 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:547
 msgid "September"
-msgstr "9 月"
+msgstr "9 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:548
 msgid "October"
-msgstr "10月"
+msgstr "10 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:549
 msgid "November"
-msgstr "11 月"
+msgstr "11 Tsuki"
 
 #: View/Widget/DateTimeWidget.php:550
 msgid "December"
-msgstr "12 月"
+msgstr "12 Tsuki"

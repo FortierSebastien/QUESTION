@@ -15,6 +15,10 @@ msgstr ""
 "Last-Translator: \n"
 "Language: fr_CA\n"
 
+#: Template/Meals/index.ctp:7
+msgid "Title"
+msgstr Titre"
+
 #: Controller/ClientsController.php:56
 msgid "Client must be added from an meal"
 msgstr "Le client doit être ajouté d'un client"

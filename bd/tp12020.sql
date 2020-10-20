@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le :  lun. 19 oct. 2020 à 02:06
+-- Généré le :  mar. 20 oct. 2020 à 00:01
 -- Version du serveur :  8.0.18
 -- Version de PHP :  7.3.11
 
@@ -31,28 +31,31 @@ SET time_zone = "+00:00";
 CREATE TABLE `clients` (
   `id` int(11) NOT NULL,
   `note` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `commentaire` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `commentaire` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `detail` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `created` date DEFAULT NULL,
-  `modified` date DEFAULT NULL
+  `modified` date DEFAULT NULL,
+  `meal_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Déchargement des données de la table `clients`
 --
 
-INSERT INTO `clients` (`id`, `note`, `commentaire`, `detail`, `created`, `modified`) VALUES
-(2, '10', 'wow', 'c\'est sublime', NULL, NULL),
-(3, '10', 'trop bonnn', 'Sebastien', '2020-10-14', '2020-10-14'),
-(4, '10', '2', 'saa', '2020-10-14', '2020-10-14'),
-(5, '01', 'ok', 'seb', '2020-10-14', '2020-10-14'),
-(6, '12', '21', '12', '2020-10-14', '2020-10-14'),
-(7, '4', 'test', 'seb', '2020-10-14', '2020-10-14'),
-(8, '4', 'test', 'seb', '2020-10-14', '2020-10-14'),
-(9, '10', 'svp Fonctionne', 'svp', '2020-10-14', '2020-10-14'),
-(10, 'si ', 'si sa marche wtf', 'ok', '2020-10-14', '2020-10-14'),
-(11, '4', 'dfs', 'fs', '2020-10-14', '2020-10-14'),
-(12, 'sdas', 'das', 'dsadsa', '2020-10-14', '2020-10-14');
+INSERT INTO `clients` (`id`, `note`, `commentaire`, `detail`, `created`, `modified`, `meal_id`) VALUES
+(2, '10', 'wow', 'c\'est sublime', NULL, NULL, 1),
+(3, '10', 'trop bonnn', 'Sebastien', '2020-10-14', '2020-10-14', 0),
+(4, '10', '2', 'saa', '2020-10-14', '2020-10-14', 0),
+(5, '01', 'ok', 'seb', '2020-10-14', '2020-10-14', 0),
+(6, '12', '21', '12', '2020-10-14', '2020-10-14', 0),
+(7, '4', 'test', 'seb', '2020-10-14', '2020-10-14', 0),
+(8, '4', 'test', 'seb', '2020-10-14', '2020-10-14', 0),
+(9, '10', 'svp Fonctionne', 'svp', '2020-10-14', '2020-10-14', 0),
+(10, 'si ', 'si sa marche wtf', 'ok', '2020-10-14', '2020-10-14', 0),
+(11, '4', 'dfs', 'fs', '2020-10-14', '2020-10-14', 0),
+(12, 'sdas', 'das', 'dsadsa', '2020-10-14', '2020-10-14', 0),
+(13, 'salut', '\"\"', 'Fortier', '2020-10-19', '2020-10-19', 4),
+(14, '10', '\"\"', 'WOW', '2020-10-19', '2020-10-19', 4);
 
 -- --------------------------------------------------------
 
@@ -96,7 +99,15 @@ CREATE TABLE `i18n` (
 --
 
 INSERT INTO `i18n` (`id`, `locale`, `model`, `foreign_key`, `field`, `content`) VALUES
-(1, 'en_US', 'Meals', 1, 'nom', 'pizza_en');
+(1, 'en_US', 'Meals', 1, 'nom', 'pizza_en'),
+(2, 'fr_CA', 'Meals', 4, 'nom', 'pizza_fr'),
+(3, 'ja_JP', 'Meals', 4, 'nom', 'pizza_ja'),
+(4, 'ja_JP', 'Meals', 9, 'nom', 'Sesshon ni tsuika'),
+(5, 'ja_JP', 'Meals', 11, 'nom', 'Supagetti'),
+(6, 'ja_JP', 'Meals', 13, 'nom', 'Umi no same'),
+(7, 'ja_JP', 'Meals', 12, 'nom', 'Rakuretto'),
+(8, 'fr_CA', 'Clients', 13, 'commentaire', '\"\"'),
+(9, 'fr_CA', 'Clients', 14, 'commentaire', 'lol');
 
 -- --------------------------------------------------------
 
@@ -123,11 +134,22 @@ CREATE TABLE `meals` (
 --
 
 INSERT INTO `meals` (`id`, `prix`, `date`, `grosseur`, `employer_id`, `client_id`, `user_id`, `created`, `modified`, `slug`, `nom`) VALUES
-(4, 20, '2020-10-13', 'M', 1, 1, 1, '2020-09-30', '2020-10-14', 'first one', 'pizza_en.0'),
-(9, 30, '2020-10-14', 'S', 3, 2, 1, '2020-10-14', '2020-10-14', 'Ajouter-en-session', 'Ajouter en session'),
-(11, 23, '2020-10-14', 'S', 3, 2, 2, '2020-10-14', '2020-10-14', 'Spaghetti', 'Spaghetti'),
-(12, 33, '2020-10-14', 'M', 3, 2, 3, '2020-10-14', '2020-10-14', 'Raclette', 'Raclette'),
-(13, 76, '2020-10-14', 'G', 3, 2, 4, '2020-10-14', '2020-10-14', 'requin-de-mer', 'requin de mer');
+(4, 20, '2020-10-13', 'M', 1, 1, 1, '2020-09-30', '2020-10-19', 'first one', 'pizza_en'),
+(9, 30, '2020-10-14', 'S', 3, 2, 1, '2020-10-14', '2020-10-19', 'Ajouter-en-session', 'Add in session'),
+(11, 23, '2020-10-14', 'S', 3, 2, 2, '2020-10-14', '2020-10-19', 'Spaghetti', 'Spaghetti'),
+(12, 33, '2020-10-14', 'M', 3, 2, 3, '2020-10-14', '2020-10-19', 'Raclette', 'Raclette'),
+(13, 76, '2020-10-14', 'G', 3, 2, 4, '2020-10-14', '2020-10-19', 'requin-de-mer', 'Sea Shark');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `meals_tags`
+--
+
+CREATE TABLE `meals_tags` (
+  `meal_id` int(11) NOT NULL,
+  `tag_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -148,8 +170,21 @@ CREATE TABLE `roles` (
 --
 
 INSERT INTO `roles` (`id`, `name`, `description`, `created`, `modified`) VALUES
-(1, 'admin', 'Possede tous les pouvoir', NULL, NULL),
+(1, 'admin', 'Peux voir les utilisateurs', NULL, NULL),
 (2, 'visiteur', 'Possede aucun pouvoir de modification', NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `tags`
+--
+
+CREATE TABLE `tags` (
+  `id` int(11) NOT NULL,
+  `nom` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `created` date DEFAULT NULL,
+  `modified` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -184,7 +219,8 @@ INSERT INTO `users` (`id`, `email`, `password`, `created`, `modified`, `role_id`
 -- Index pour la table `clients`
 --
 ALTER TABLE `clients`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `meal_id` (`meal_id`);
 
 --
 -- Index pour la table `employers`
@@ -210,9 +246,22 @@ ALTER TABLE `meals`
   ADD KEY `employer_id` (`employer_id`) USING BTREE;
 
 --
+-- Index pour la table `meals_tags`
+--
+ALTER TABLE `meals_tags`
+  ADD PRIMARY KEY (`meal_id`,`tag_id`),
+  ADD KEY `tag_key` (`tag_id`) USING BTREE;
+
+--
 -- Index pour la table `roles`
 --
 ALTER TABLE `roles`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `tags`
+--
+ALTER TABLE `tags`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -230,7 +279,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pour la table `clients`
 --
 ALTER TABLE `clients`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT pour la table `employers`
@@ -242,7 +291,7 @@ ALTER TABLE `employers`
 -- AUTO_INCREMENT pour la table `i18n`
 --
 ALTER TABLE `i18n`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT pour la table `meals`
@@ -254,13 +303,19 @@ ALTER TABLE `meals`
 -- AUTO_INCREMENT pour la table `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT pour la table `tags`
+--
+ALTER TABLE `tags`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT pour la table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

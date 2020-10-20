@@ -41,6 +41,7 @@ class AppController extends Controller {
      */
     public function initialize() {
         parent::initialize();
+        I18n::setLocale($this->request->getSession()->read('Config.language'));
 
         $this->loadComponent('RequestHandler', [
             'enableBeforeRedirect' => false,

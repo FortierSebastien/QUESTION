@@ -4,10 +4,10 @@
 <p><?= $this->Html->link("Add Meal", ['action' => 'add']) ?></p>
 <table>
     <tr>
-        <th>Title</th>
-        <th>Created</th>
-        <th>By</th>
-        <th>Action</th>
+        <th><?= __('Title')?></th>
+        <th><?= __('Created')?></th>
+        <th><?= __('By')?></th>
+        <th><?= __('Action')?></th>
 
     </tr>
 

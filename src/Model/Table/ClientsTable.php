@@ -41,8 +41,9 @@ class ClientsTable extends Table
 
         $this->addBehavior('Timestamp');
 
-        $this->hasMany('Meals', [
-            'foreignKey' => 'client_id',
+        $this->belongsTo('Meals', [
+            'foreignKey' => 'meal_id',
+            'joinType' => 'INNER',
         ]);
     }
 

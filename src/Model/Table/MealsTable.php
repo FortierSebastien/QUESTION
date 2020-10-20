@@ -17,11 +17,17 @@ class MealsTable extends Table {
         $this->addBehavior('Translate', ['fields' => ['nom']]);
    
         $this->addBehavior('Timestamp');
+        
          $this->belongsTo('Users', [
             'foreignKey' => 'user_id',
         ]);
-          $this->belongsTo('Clients', [
-            'foreignKey' => 'client_id',
+          $this->hasMany('Clients', [
+            'foreignKey' => 'meal_id',
+        ]);
+          $this->belongsToMany('Tags', [
+            'foreignKey' => 'meal_id',
+              'targetForeignKey'=> 'tag_id',
+              'joinTable' => 'meals_tags',
         ]);
     }
 

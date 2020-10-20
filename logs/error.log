@@ -2185,3 +2185,967 @@ Request URL: /
 Referer URL: http://localhost/
 
 
+2020-10-19 03:18:16 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 8.7285079956055)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(9152504)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users/change-lang/ja_JP
+Referer URL: http://localhost/tp1/Users/index
+2020-10-19 03:19:06 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.541679382324)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12102328)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /Users/index
+Referer URL: http://localhost/tp1/users/login?redirect=%2FUsers%2Findex
+2020-10-19 03:19:23 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 9.9061965942383)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(10387400)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users/login?redirect=%2FUsers%2Findex
+Referer URL: http://localhost/tp1/Users/index
+2020-10-19 03:19:24 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.510261535645)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12069384)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /Users/index
+Referer URL: http://localhost/tp1/Users/index
+2020-10-19 03:19:25 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.510261535645)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12069384)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /Users/index
+Referer URL: http://localhost/tp1/Users/index
+2020-10-19 03:19:25 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.510261535645)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12069384)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /Users/index
+Referer URL: http://localhost/tp1/Users/index
+2020-10-19 03:19:39 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.46915435791)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12026280)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:21:14 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.489540100098)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12047656)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:27:24 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.490440368652)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12048600)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:27:25 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.401702880859)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11955552)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:27:26 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.401702880859)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11955552)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:27:26 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.401702880859)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11955552)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:27:26 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.401702880859)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11955552)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:27:27 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.401702880859)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11955552)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:31:19 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.49031829834)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12048472)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:35:44 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.49031829834)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12048472)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:36:30 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.401580810547)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11955424)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:39:33 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.490440368652)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12048600)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:39:35 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.401702880859)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11955552)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:39:57 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.401580810547)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11955424)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:44:38 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.49031829834)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12048472)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:49:15 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.407043457031)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11961152)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:49:26 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.401580810547)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11955424)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:50:11 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 8.5889358520508)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(9006152)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /meals/change-lang/ja_JP
+Referer URL: http://localhost/tp1/
+2020-10-19 03:50:17 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 8.6197891235352)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(9038504)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /meals/change-lang/ja_JP
+Referer URL: http://localhost/tp1/
+2020-10-19 03:51:03 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 8.5181427001953)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(8931920)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users/change-lang/ja_JP
+Referer URL: http://localhost/tp1/users
+2020-10-19 03:51:05 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.509811401367)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12068912)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users
+Referer URL: http://localhost/tp1/users
+2020-10-19 03:51:06 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.509811401367)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12068912)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users
+Referer URL: http://localhost/tp1/users
+2020-10-19 03:51:07 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.509811401367)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12068912)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users
+Referer URL: http://localhost/tp1/users
+2020-10-19 03:51:07 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.509811401367)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12068912)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users
+Referer URL: http://localhost/tp1/users
+2020-10-19 03:51:07 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.509811401367)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12068912)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users
+Referer URL: http://localhost/tp1/users
+2020-10-19 03:51:07 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.509811401367)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12068912)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users
+Referer URL: http://localhost/tp1/users
+2020-10-19 03:51:08 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.509811401367)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12068912)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users
+Referer URL: http://localhost/tp1/users
+2020-10-19 03:51:08 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.509811401367)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(12068912)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /users
+Referer URL: http://localhost/tp1/users
+2020-10-19 03:51:24 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.40657043457)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11960656)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:51:32 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 11.401229858398)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(11955056)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /
+Referer URL: http://localhost/
+2020-10-19 03:53:17 Error: [IntlException] Constructor failed in C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php on line 69
+Stack Trace:
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(69): MessageFormatter->__construct('ja_JP', '{0,0,\xE6\x95\xB0,#,####...')
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Formatter\IcuFormatter.php(42): Cake\I18n\Formatter\IcuFormatter->_formatMessage('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Translator.php(87): Cake\I18n\Formatter\IcuFormatter->format('ja_JP', '{0,0,\xE6\x95\xB0,#,####...', Array)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\functions.php(89): Cake\I18n\Translator->translate('{0,number,#,###...', Array)
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\I18n\Number.php(108): __d('cake', '{0,number,#,###...', 8.4992294311523)
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Panel\TimerPanel.php(125): Cake\I18n\Number::toReadableSize(8912088)
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\ToolbarService.php(246): DebugKit\Panel\TimerPanel->summary()
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(54): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#12 {main}
+
+
+Request URL: /meals/change-lang/ja_JP
+Referer URL: http://localhost/tp1/
+2020-10-19 05:25:01 Error: [ParseError] syntax error, unexpected '}', expecting end of file (C:\Program Files\Ampps\www\tp1\src\Template\Users\add.ctp:31)
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\View\View.php(1393): Cake\View\View->_evaluate('C:\\Program File...', Array)
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\View\View.php(892): Cake\View\View->_render('C:\\Program File...')
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#22 {main}
+Request URL: /users/add
+Referer URL: http://localhost/tp1/users
+
+
+2020-10-19 21:38:07 Error: [ParseError] syntax error, unexpected '/' (C:\Program Files\Ampps\www\tp1\src\Template\Meals\index.ctp:7)
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\View\View.php(1393): Cake\View\View->_evaluate('C:\\Program File...', Array)
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\View\View.php(892): Cake\View\View->_render('C:\\Program File...')
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\MealsController))
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#22 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2020-10-19 23:19:32 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'commentaire' doesn't have a default value (C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(2136): Cake\Database\Query->execute()
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(2028): Cake\ORM\Table->_insert(Object(App\Model\Entity\Client), Array)
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Client), Object(ArrayObject))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#11 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#12 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#13 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#14 C:\Program Files\Ampps\www\tp1\src\Controller\ClientsController.php(65): Cake\ORM\Table->save(Object(App\Model\Entity\Client))
+#15 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\ClientsController->add()
+#16 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#17 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ClientsController))
+#18 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#28 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#34 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#35 {main}
+Request URL: /clients/add
+Referer URL: http://localhost/tp1/clients/add
+
+
+2020-10-19 23:27:10 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'commentaire' doesn't have a default value (C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(2136): Cake\Database\Query->execute()
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(2028): Cake\ORM\Table->_insert(Object(App\Model\Entity\Client), Array)
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Client), Object(ArrayObject))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#11 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#12 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#13 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#14 C:\Program Files\Ampps\www\tp1\src\Controller\ClientsController.php(65): Cake\ORM\Table->save(Object(App\Model\Entity\Client))
+#15 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\ClientsController->add()
+#16 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#17 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ClientsController))
+#18 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#28 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#34 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#35 {main}
+Request URL: /clients/add
+Referer URL: http://localhost/tp1/clients/add
+
+
+2020-10-19 23:46:18 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'commentaire' doesn't have a default value (C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(2136): Cake\Database\Query->execute()
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(2028): Cake\ORM\Table->_insert(Object(App\Model\Entity\Client), Array)
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Client), Object(ArrayObject))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#11 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#12 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#13 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#14 C:\Program Files\Ampps\www\tp1\src\Controller\ClientsController.php(65): Cake\ORM\Table->save(Object(App\Model\Entity\Client))
+#15 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\ClientsController->add()
+#16 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#17 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ClientsController))
+#18 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#28 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#34 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#35 {main}
+Request URL: /clients/add
+Referer URL: http://localhost/tp1/clients/add
+
+
+2020-10-19 23:52:55 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'commentaire' doesn't have a default value (C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(2136): Cake\Database\Query->execute()
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(2028): Cake\ORM\Table->_insert(Object(App\Model\Entity\Client), Array)
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Client), Object(ArrayObject))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#11 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#12 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#13 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#14 C:\Program Files\Ampps\www\tp1\src\Controller\ClientsController.php(65): Cake\ORM\Table->save(Object(App\Model\Entity\Client))
+#15 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\ClientsController->add()
+#16 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#17 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ClientsController))
+#18 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#28 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#34 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#35 {main}
+Request URL: /clients/add
+Referer URL: http://localhost/tp1/clients/add
+
+
+2020-10-19 23:56:50 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'commentaire' doesn't have a default value (C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(2136): Cake\Database\Query->execute()
+#8 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(2028): Cake\ORM\Table->_insert(Object(App\Model\Entity\Client), Array)
+#9 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Client), Object(ArrayObject))
+#10 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#11 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Database\Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#12 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#13 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\ORM\Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#14 C:\Program Files\Ampps\www\tp1\src\Controller\ClientsController.php(65): Cake\ORM\Table->save(Object(App\Model\Entity\Client))
+#15 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\ClientsController->add()
+#16 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#17 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ClientsController))
+#18 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#28 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Program Files\Ampps\www\tp1\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Program Files\Ampps\www\tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#34 C:\Program Files\Ampps\www\tp1\webroot\index.php(40): Cake\Http\Server->run()
+#35 {main}
+Request URL: /clients/add
+Referer URL: http://localhost/tp1/clients/add
+
+
