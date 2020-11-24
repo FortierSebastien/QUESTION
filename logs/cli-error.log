@@ -1,0 +1,24 @@
+2020-10-20 01:28:20 Error: [ParseError] syntax error, unexpected end of file in C:\Program Files\Ampps2\www\QUESTION-envoi\config\routes.php on line 110
+Stack Trace:
+#0 C:\Program Files\Ampps2\www\QUESTION-envoi\vendor\cakephp\cakephp\src\Console\CommandRunner.php(421): Cake\Http\BaseApplication->routes(Object(Cake\Routing\RouteBuilder))
+#1 C:\Program Files\Ampps2\www\QUESTION-envoi\vendor\cakephp\cakephp\src\Console\CommandRunner.php(146): Cake\Console\CommandRunner->loadRoutes()
+#2 C:\Program Files\Ampps2\www\QUESTION-envoi\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
+2020-10-20 01:28:42 Error: [ParseError] syntax error, unexpected end of file in C:\Program Files\Ampps2\www\QUESTION-envoi\config\routes.php on line 110
+Stack Trace:
+#0 C:\Program Files\Ampps2\www\QUESTION-envoi\vendor\cakephp\cakephp\src\Console\CommandRunner.php(421): Cake\Http\BaseApplication->routes(Object(Cake\Routing\RouteBuilder))
+#1 C:\Program Files\Ampps2\www\QUESTION-envoi\vendor\cakephp\cakephp\src\Console\CommandRunner.php(146): Cake\Console\CommandRunner->loadRoutes()
+#2 C:\Program Files\Ampps2\www\QUESTION-envoi\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
+2020-10-20 01:31:13 Error: [ParseError] syntax error, unexpected end of file in C:\Program Files\Ampps2\www\QUESTION-envoi\config\routes.php on line 110
+Stack Trace:
+#0 C:\Program Files\Ampps2\www\QUESTION-envoi\vendor\cakephp\cakephp\src\Console\CommandRunner.php(421): Cake\Http\BaseApplication->routes(Object(Cake\Routing\RouteBuilder))
+#1 C:\Program Files\Ampps2\www\QUESTION-envoi\vendor\cakephp\cakephp\src\Console\CommandRunner.php(146): Cake\Console\CommandRunner->loadRoutes()
+#2 C:\Program Files\Ampps2\www\QUESTION-envoi\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
