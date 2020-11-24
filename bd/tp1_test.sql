@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le :  lun. 16 nov. 2020 à 05:06
+-- Généré le :  mar. 24 nov. 2020 à 23:44
 -- Version du serveur :  8.0.18
 -- Version de PHP :  7.3.11
 
@@ -32,8 +32,8 @@ CREATE TABLE `categories` (
   `id` int(11) NOT NULL,
   `restaurant_id` int(11) NOT NULL,
   `topic_id` int(11) NOT NULL,
-  `code` varchar(7) COLLATE utf8mb4_general_ci NOT NULL,
-  `nom` varchar(80) COLLATE utf8mb4_general_ci NOT NULL
+  `code` varchar(7) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `nom` varchar(80) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -244,8 +244,8 @@ INSERT INTO `meals_tags` (`meal_id`, `tag_id`) VALUES
 CREATE TABLE `restaurants` (
   `id` int(11) NOT NULL,
   `topic_id` int(11) NOT NULL,
-  `code` varchar(7) COLLATE utf8mb4_general_ci NOT NULL,
-  `nom` varchar(80) COLLATE utf8mb4_general_ci NOT NULL
+  `code` varchar(7) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `nom` varchar(80) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -314,20 +314,23 @@ INSERT INTO `tags` (`id`, `nom`, `created`, `modified`) VALUES
 
 CREATE TABLE `topics` (
   `id` int(11) NOT NULL,
-  `code` varchar(7) COLLATE utf8mb4_general_ci NOT NULL,
-  `nom` varchar(80) COLLATE utf8mb4_general_ci NOT NULL
+  `code` varchar(7) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `nom` varchar(80) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `status` enum('1','0') COLLATE utf8mb4_general_ci NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Déchargement des données de la table `topics`
 --
 
-INSERT INTO `topics` (`id`, `code`, `nom`) VALUES
-(1, '0000001', 'italiens'),
-(2, '2', 'Japonais'),
-(3, '3', 'Quebecois'),
-(4, '4', 'chinois'),
-(5, '5', 'portugais');
+INSERT INTO `topics` (`id`, `code`, `nom`, `created`, `modified`, `status`) VALUES
+(1, '0000001', 'italiens', '2020-11-24 14:58:30', '2020-11-24 14:58:30', '1'),
+(2, '2', 'Japonais', '2020-11-24 14:58:30', '2020-11-24 14:58:30', '1'),
+(3, '3', 'Quebecois', '2020-11-24 14:58:30', '2020-11-24 14:58:30', '1'),
+(4, '4', 'chinois', '2020-11-24 14:58:30', '2020-11-24 14:58:30', '1'),
+(5, '5', 'portugais', '2020-11-24 14:58:30', '2020-11-24 14:58:30', '1');
 
 -- --------------------------------------------------------
 
